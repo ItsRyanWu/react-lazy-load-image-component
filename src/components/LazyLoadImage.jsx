@@ -106,9 +106,9 @@ class LazyLoadImage extends React.Component {
 				}
 				style={{
 					backgroundImage:
-						placeholderSrc ? `url(${placeholderSrc})` : '',
+						placeholderSrc ? `url(${placeholderSrc})` : null,
 					backgroundSize:
-						placeholderSrc ? '100% 100%' : '',
+						placeholderSrc ? '100% 100%' : null,
 					color: 'transparent',
 					display: 'inline-block',
 					height: height,
